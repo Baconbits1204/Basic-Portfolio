@@ -1,3 +1,123 @@
-h1 {color: #4aaaa5;}
 
-p {font-size: 40px;}
+body{
+    background-image: url(../images/papyrus.png);
+    margin: 0%;
+}
+
+img {
+    float: left;
+} 
+a:hover {
+    color: blue;
+    }
+
+.header{
+        width: 100%;
+        height: 80px;
+        display: block;
+        background-color: black;
+}
+ 
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: o auto;
+}
+
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1{
+    color: white;
+    background-color: #4aaaa5;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo-container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: red;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.content {
+    border: 1px solid gray;
+    margin: 5% ;
+    padding: 5%;
+    color: green;
+    background-color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80%;
+    text-align: left;
+}
+
+
+.bottom {
+    text-align: center;
+    display: block;
+    background-color: grey;
+    border-color: #4aaaa5;
+    border-top: 5px;
+    margin: 5%;
+    width: 100%;
+    height: 3%;
+    border-top: 2px solid #4aaaa5;
+}
+/* first round
+
+h1 {}}}}}}
+background-color: rgb(0, 53, 0);
+height: 120px;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+
+#navbar {width: 100%; 
+    margin: 0 auto;
+    height: 40px;
+    background-color: aqua;
+    position: fixed;
+    color: rebeccapurple;
+    padding-top: 10px;
+    }
+
+
+
+form {height: 200px}
+
+footer {text-align: center;
+font-size: 50px;
+background-color: #666;} 
+*/
+
+
